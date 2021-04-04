@@ -1,0 +1,286 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@800&display=swap");
+
+* {
+  font-family: "Mulish", sans-serif;
+  box-sizing: border-box;
+}
+.header {
+  background-image: url(./img/hero.jpg);
+  background-size: cover;
+  background-position: center;
+  clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+}
+.mb-8 {
+  margin-bottom: 150px;
+}
+.logo {
+  color: white;
+  font-size: 40px;
+}
+.and {
+  color: #ff7f00;
+  font-size: 58px;
+}
+
+.nav-item,
+.nav-item button {
+  font-size: 24px;
+}
+
+.btn-primary {
+  background-color: #ff7f00;
+  border: #ff7f00;
+  border-radius: 30px;
+}
+
+.heading-title {
+  font-family: "Playfair Display", serif;
+  font-size: 80px;
+  margin-bottom: 3px;
+  font-weight: 800;
+}
+
+.heading-text {
+  font-size: 20px;
+  font-family: "Mulish", sans-serif;
+}
+
+.heading-button {
+  font-size: 24px;
+}
+
+.types_title {
+  font-family: "Playfair Display", serif;
+  color: #ff7f00;
+  font-size: 48px;
+}
+.card-none {
+  border: none;
+}
+
+.card-title {
+  font-size: 32px;
+  font-family: "Mulish", sans-serif;
+  border-radius: 10px;
+  transform: translateY(-75%);
+}
+
+.para {
+  font-size: 14px;
+  font-family: "Mulish", sans-serif;
+  color: #6d7d8b;
+}
+
+.the-team {
+  background-color: #f0f0f0;
+  clip-path: polygon(0% 5%, 100% 0%, 100% 95%, 0% 100%);
+}
+
+.pt-6 {
+  padding-top: 200px;
+}
+.the-team-title {
+  font-family: "Playfair Display", serif;
+  font-size: 70px;
+  color: #ff7f00;
+}
+.imgg-1 {
+  background-image: url(./img/team-1.png);
+}
+.imgg-2 {
+  background-image: url(./img/team-2.png);
+}
+.imgg-3 {
+  background-image: url(./img/team-3.png);
+}
+
+.mb-7 {
+  margin-bottom: 120px;
+}
+.img-card-teams {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.team__item {
+  position: relative;
+  display: flex;
+  margin-bottom: 100px;
+}
+
+.team__item_block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.team__item__name {
+  margin-top: 10%;
+  font-family: "Playfair Display", serif;
+  font-size: 48px;
+  color: #ff7f00;
+}
+
+.team__item__title {
+  font-size: 12px;
+  font-family: "Mulish", sans-serif;
+  text-transform: uppercase;
+  color: rgba(0, 0, 0, 0.4);
+  margin-bottom: 20%;
+}
+.team__item__paragraph {
+  font-family: "Mulish", sans-serif;
+  color: #6d7d8b;
+  font-size: 14px;
+  text-align: center;
+}
+
+.box-shadow {
+  height: 400px;
+  width: 350px;
+  background-color: #ff7f00;
+  z-index: -1;
+  position: absolute;
+  top: 30px;
+  left: -30px;
+}
+
+.clients-paragraph {
+  font-family: "Mulish", sans-serif;
+  color: #6d7d8b;
+  font-size: 18px;
+}
+
+.clients__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 25px;
+}
+
+.img_container {
+  height: 100px;
+  width: 100px;
+}
+
+.clients__item__img {
+  height: 100%;
+  width: 100%;
+  color: #ff7f00;
+}
+
+.number {
+  font-family: "Mulish", sans-serif;
+  color: #ff7f00;
+  font-size: 48px;
+  margin-bottom: 15px;
+}
+
+.hr {
+  height: 2px;
+  width: 90px;
+  color: #6d7d8b;
+  background-color: #6d7d8b;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 15px;
+}
+
+.explain {
+  margin-top: 10px;
+  font-family: "Mulish", sans-serif;
+  color: black;
+  font-size: 24px;
+  text-align: center;
+}
+
+.footer {
+  background-color: #323232;
+}
+
+.logo__footer {
+  padding-top: 40px;
+  text-align: center;
+}
+
+.copyright {
+  margin-top: 70px;
+  text-align: center;
+  font-size: 16px;
+  color: #bdbdbd;
+  margin-bottom: 0;
+}
+
+.info {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px auto;
+}
+
+.info__item {
+  font-family: "Mulish", sans-serif;
+  color: white;
+  font-size: 16px;
+}
+
+.contact {
+  background-color: #f0f0f0;
+  display: flex;
+}
+
+.contact-img {
+  background-image: url(./img/contact.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.contact__block {
+}
+
+.contact__title {
+  font-family: "Playfair Display", serif;
+  font-size: 48px;
+  color: #ff7f00;
+}
+.contact__input {
+  width: 100%;
+}
+
+.Contact__input__area {
+  width: 100%;
+  height: 100px;
+  border-radius: 10px;
+  border: 1px solid #cccccc;
+}
+
+.label {
+  font-family: "Mulish", sans-serif;
+  color: #ff7f00;
+  font-size: 18px;
+}
+@media (max-width: 1400px) {
+}
+@media (max-width: 1200px) {
+}
+
+@media (max-width: 992px) {
+  .heading-title {
+    font-size: 50px;
+  }
+
+  .heading-text {
+    font-size: 15px;
+  }
+}
+@media (max-width: 768px) {
+  .header {
+    clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
+  }
+  .types_title {
+    font-size: 35px;
+  }
+}
+@media (max-width: 576px) {
+}
